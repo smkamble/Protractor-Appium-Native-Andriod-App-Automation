@@ -1,0 +1,28 @@
+{
+  "name": "protractor-appium",
+  "version": "0.0.1",
+  "description": "Framework based on protractor and appium for mobile testing",
+  "main": "index.js",
+  "scripts": {
+    "go": "node node_modules/protractor/bin/protractor test/configuration/protractor-conf.js",
+    "test": "protractor config/local-protractor-conf.js"
+  },
+  "author": "Sachin Kamble",
+  "license": "ISC",
+  "keywords": [
+    "Protractor",
+    "Typescript"
+  ],
+  "devDependencies": {
+    "appium": "^1.12.1",
+    "jasmine": "^3.4.0",
+    "jasminewd2": "^2.0.6",
+    "protractor": "^5.4.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.4",
+    "jasmine-reporters": "^2.2.1",
+    "@types/jasmine": "^2.8.8",
+    "@types/jasminewd2": "^2.0.3",
+    "@types/node": "^7.0.0"
+  }
+}
